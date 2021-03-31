@@ -261,6 +261,8 @@ def delete_article(request):
     article.delete()
     return Response('ok')
 
+
+
 #文章分页 数据列表
 @api_view(['GET'])
 def articleList(request):
