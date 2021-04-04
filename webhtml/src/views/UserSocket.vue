@@ -1,5 +1,5 @@
 <template>
-    <div id="user-socket">
+    <div id="user-socket" class="body">
         <el-row :gutter="10">
             <el-col :span="6">
                 <div class="dweb">
