@@ -105,6 +105,30 @@ const routes = [
       }
     }
   },
+  //在线聊天
+  {
+    path: '/user-socket',
+    name: 'UserSocket',
+    component: () => import(/* webpackChunkName: "about" */ '../views/UserSocket.vue'),
+    beforeEnter: (to,from,next) => {
+      //判断用户是否登录
+      if (store.state.userinfo.token) {
+        //判断用户权限
+        let checkInfo = {
+          contentType:'blog_lanmu',
+          permissions:['add','change','delete','view']
+        }
+        store.dispatch("checkUserPerm",checkInfo).then((res)=>{
+          console.log(res)
+          if (res) {
+            next()
+          }
+        })
+      }else{
+        next('/login')
+      }
+    }
+  },
   //文章内容页
   {
     path: '/article',

@@ -61,6 +61,10 @@
             <i class="el-icon-s-operation"></i>
             <span slot="title">栏目管理</span>
           </el-menu-item>
+          <el-menu-item index="/user-socket">
+            <i class="el-icon-chat-dot-round"></i>
+            <span slot="title">在线聊天</span>
+          </el-menu-item>
           <el-menu-item v-if="authUserLogin" @click="blogLogout()">
             <i class="el-icon-back"></i>
             <span slot="title">退出登录</span>
