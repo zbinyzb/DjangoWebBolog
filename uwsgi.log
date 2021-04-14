@@ -1,0 +1,328 @@
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Apr  7 22:51:23 2021] ***
+compiled with version: 9.3.0 on 05 April 2021 12:54:16
+os: Linux-5.4.0-65-generic #73-Ubuntu SMP Mon Jan 18 17:25:17 UTC 2021
+nodename: iZwz90uh4phnld5lro2f27Z
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /var/www/studyapi
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /var/www/studyapi/website
+your processes number limit is 7314
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:9090 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.5 (default, Jul 28 2020, 12:59:40)  [GCC 9.3.0]
+Python main interpreter initialized at 0x560dacff3bc0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+Traceback (most recent call last):
+  File "/var/www/studyapi/website/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 111699)
+spawned uWSGI worker 1 (pid: 111703, cores: 2)
+spawned uWSGI worker 2 (pid: 111704, cores: 2)
+spawned uWSGI worker 3 (pid: 111705, cores: 2)
+spawned uWSGI worker 4 (pid: 111706, cores: 2)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Apr  7 22:51:48 2021] ***
+compiled with version: 9.3.0 on 05 April 2021 12:54:16
+os: Linux-5.4.0-65-generic #73-Ubuntu SMP Mon Jan 18 17:25:17 UTC 2021
+nodename: iZwz90uh4phnld5lro2f27Z
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /var/www/studyapi
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /var/www/studyapi/website
+your processes number limit is 7314
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:9090).
+bind(): Address already in use [core/socket.c line 769]
+Wed Apr  7 22:54:41 2021 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Apr  7 22:54:41 2021 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Apr  7 22:54:41 2021 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Apr  7 22:54:41 2021 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Apr  7 22:54:41 2021 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Apr  7 22:54:41 2021 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Apr  7 23:00:08 2021] ***
+compiled with version: 9.3.0 on 05 April 2021 12:54:16
+os: Linux-5.4.0-65-generic #73-Ubuntu SMP Mon Jan 18 17:25:17 UTC 2021
+nodename: iZwz90uh4phnld5lro2f27Z
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /var/www/studyapi
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /var/www/studyapi/website
+your processes number limit is 7314
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:9090 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.5 (default, Jul 28 2020, 12:59:40)  [GCC 9.3.0]
+Python main interpreter initialized at 0x55ed4cc13bc0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+Traceback (most recent call last):
+  File "/var/www/studyapi/website/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 111778)
+spawned uWSGI worker 1 (pid: 111779, cores: 2)
+spawned uWSGI worker 2 (pid: 111780, cores: 2)
+spawned uWSGI worker 3 (pid: 111781, cores: 2)
+spawned uWSGI worker 4 (pid: 111782, cores: 2)
+Wed Apr  7 23:00:47 2021 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Apr  7 23:00:47 2021 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Apr  7 23:00:47 2021 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Apr  7 23:00:47 2021 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Apr  7 23:00:47 2021 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Apr  7 23:00:47 2021 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Apr  7 23:00:47 2021 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Apr  7 23:05:59 2021] ***
+compiled with version: 9.3.0 on 05 April 2021 12:54:16
+os: Linux-5.4.0-65-generic #73-Ubuntu SMP Mon Jan 18 17:25:17 UTC 2021
+nodename: iZwz90uh4phnld5lro2f27Z
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /var/www/studyapi
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /var/www/studyapi/website
+your processes number limit is 7314
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:9090 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.5 (default, Jul 28 2020, 12:59:40)  [GCC 9.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55f4497cd840
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "/var/www/studyapi/website/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 111880)
+spawned uWSGI worker 1 (pid: 111881, cores: 1)
+spawned uWSGI worker 2 (pid: 111882, cores: 1)
+spawned uWSGI worker 3 (pid: 111883, cores: 1)
+spawned uWSGI worker 4 (pid: 111884, cores: 1)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Apr  7 23:06:45 2021] ***
+compiled with version: 9.3.0 on 05 April 2021 12:54:16
+os: Linux-5.4.0-65-generic #73-Ubuntu SMP Mon Jan 18 17:25:17 UTC 2021
+nodename: iZwz90uh4phnld5lro2f27Z
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /var/www/studyapi
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /var/www/studyapi/website
+your processes number limit is 7314
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:9090).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Apr  7 23:08:57 2021] ***
+compiled with version: 9.3.0 on 05 April 2021 12:54:16
+os: Linux-5.4.0-65-generic #73-Ubuntu SMP Mon Jan 18 17:25:17 UTC 2021
+nodename: iZwz90uh4phnld5lro2f27Z
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /var/www/studyapi
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /var/www/studyapi/website
+your processes number limit is 7314
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:9090).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Apr  7 23:11:18 2021] ***
+compiled with version: 9.3.0 on 05 April 2021 12:54:16
+os: Linux-5.4.0-65-generic #73-Ubuntu SMP Mon Jan 18 17:25:17 UTC 2021
+nodename: iZwz90uh4phnld5lro2f27Z
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /var/www/studyapi
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /var/www/studyapi/website
+your processes number limit is 7314
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:9090).
+bind(): Address already in use [core/socket.c line 769]
+Wed Apr  7 23:11:52 2021 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Apr  7 23:11:52 2021 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Apr  7 23:11:52 2021 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Apr  7 23:11:52 2021 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Apr  7 23:12:08 2021] ***
+compiled with version: 9.3.0 on 05 April 2021 12:54:16
+os: Linux-5.4.0-65-generic #73-Ubuntu SMP Mon Jan 18 17:25:17 UTC 2021
+nodename: iZwz90uh4phnld5lro2f27Z
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /var/www/studyapi
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /var/www/studyapi/website
+your processes number limit is 7314
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:9090 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.5 (default, Jul 28 2020, 12:59:40)  [GCC 9.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55cc48be5840
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "/var/www/studyapi/website/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 111921)
+spawned uWSGI worker 1 (pid: 111935, cores: 1)
+spawned uWSGI worker 2 (pid: 111936, cores: 1)
+spawned uWSGI worker 3 (pid: 111937, cores: 1)
+spawned uWSGI worker 4 (pid: 111938, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Apr 14 10:22:07 2021] ***
+compiled with version: 9.3.0 on 16 March 2021 06:22:49
+os: Linux-5.4.0-65-generic #73-Ubuntu SMP Mon Jan 18 17:25:17 UTC 2021
+nodename: iZwz90uh4phnld5lro2f27Z
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /var/www/studyapi
+writing pidfile to uwsgi.pid
+detected binary path: /var/www/studyapi/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /var/www/studyapi/website
+your processes number limit is 7314
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:9090 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.5 (default, Jul 28 2020, 12:59:40)  [GCC 9.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x56438af9afd0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x56438af9afd0 pid: 123425 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 123425)
+spawned uWSGI worker 1 (pid: 123429, cores: 1)
+spawned uWSGI worker 2 (pid: 123430, cores: 1)
+spawned uWSGI worker 3 (pid: 123431, cores: 1)
+spawned uWSGI worker 4 (pid: 123432, cores: 1)

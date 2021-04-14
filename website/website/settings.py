@@ -175,9 +175,9 @@ ALIPAY_APPID = "2021000117624232"   #沙箱模拟
 ALIPAY_URL = "https://openapi.alipaydev.com/gateway.do"     #沙箱模拟
 # ALIPAY_URL = "https://openapi.alipay.com/gateway.do"
 #回调地址
-# ALIPAY_NOTIFY_URL = "http://zbin.cn/pay_result/"
+# ALIPAY_NOTIFY_URL = "https://zbinweb.cn/pay_result/"
 #前端首页
-# ALIPAY_RETURN_URL = "http://blog.study.zbin.cn/"
+# ALIPAY_RETURN_URL = "https://blog.study.zbin.cn/"
 
 #使用密钥字符串
 #应用公钥
