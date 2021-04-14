@@ -141,7 +141,8 @@ CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOW_ALL_ORIGINS = True
 # 授权进行跨站点HTTP请求的来源列表[白名单]
 CORS_ALLOWED_ORIGINS  =  [ 
-    'http://127.0.0.1'
+    'http://127.0.0.1',
+    # 'https://zbinweb.cn/',
 ]
 #允许用户请求的方法
 CORS_ALLOW_METHODS = [

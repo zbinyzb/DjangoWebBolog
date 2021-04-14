@@ -14,7 +14,7 @@ import requests
 import datetime
 import json
 #服务器端地址
-hostUrl = 'http://127.0.0.1:9000/'
+hostUrl = 'https://118.89.167.85/'
 
 #用户鉴权
 @api_view(['POST'])
